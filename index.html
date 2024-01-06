@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>DOM - JS</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <div class="heading">
+            <h1 style="visibility: hidden;">Old Heading</h1>
+            <h1 id="h1">
+                This page is about DOM in JS
+            </h1>
+            <p>Document Object Model</p>
+        </div>
+
+        <div class="heading">
+            <h1>
+                Java Script
+            </h1>
+        </div>
+        <main class="blog">
+            <div>
+                <h2 class="br">
+                    Window Object
+                </h2>
+            </div>
+            <div>
+                <p class="br">
+                    The window object represents an open window in browser. it is browser's object(not JS's) &amp; is
+                    automatically created by browser.
+                </p>
+            </div>
+            <div class="br">
+                <li>It is a global object with lots of properties &amp; methods.</li>
+                <li>All the codes are window object but we don't code like this:
+                <pre class="code"><code>window.alert("hello");
+window.console.log("hello");</code></pre></li>
+                <li>Everything of HTML file we can access by JS. All the HTML elements are stored as object in JS and we
+                    call that special object <b>document</b> and this document is available in window object. </li>
+                <li>The full HTML code is available in document object. We can run this code to see the full HTML code
+                    in browser console:
+                    <pre class="code"><code>window.document</code></pre>
+                </li>
+                <li>We can run this code to see the properties of document:
+                    <pre class="code"><code>console.dir(window.document)</code></pre>
+                </li>
+                <li><b>Document is also an object in window object. It is a model or representation of HTML code. This is called DOM(Document Object Model).</b></li>
+            </div>
+
+            <div class="br container">
+                <img src="domTree.png" alt="Dom Tree" class="img img1">
+            </div>
+
+            <div class="br container">
+                <img src="code.png" alt="HTML code example" class="img img2">
+            </div>
+
+            <div class="br container">
+                <img src="description.png" alt="Dom description" class="img img3">
+            </div>
+
+        </main>
+
+        <!-- <p style="color: red; background-color: rgba(255, 0, 0, 0.219); border: 2px solid red; height: fit-content; width: fit-content; font-size: 5em; position: fixed; top: 40vh; left: 17vw; transform: rotate(-45deg);"> <b>Server crashed</b></p> -->
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
