@@ -21,6 +21,11 @@
 //     document.body.style.background = "white";
 // }
 
+// document.getElementsByClassName("heading")[0].style.color = "red";
+// let a = document.getElementsByClassName("heading");
+// console.log(a);
+
+
 
 
 
