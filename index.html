@@ -10,7 +10,7 @@
 
     <body>
 
-        <div class="heading">
+        <div id="title" class="heading" name="about">
             <h1 style="visibility: hidden;">Old Heading</h1>
             <h1 id="h1">
                 This page is about DOM in JS
@@ -18,7 +18,7 @@
             <p>Document Object Model</p>
         </div>
 
-        <div class="heading">
+        <div id="heading2" class="heading">
             <h1>
                 Java Script
             </h1>
@@ -35,11 +35,12 @@
                     automatically created by browser.
                 </p>
             </div>
-            <div class="br">
+            <div id="definition" class="br">
                 <li>It is a global object with lots of properties &amp; methods.</li>
                 <li>All the codes are window object but we don't code like this:
-                <pre class="code"><code>window.alert("hello");
-window.console.log("hello");</code></pre></li>
+                    <pre class="code"><code>window.alert("hello");
+window.console.log("hello");</code></pre>
+                </li>
                 <li>Everything of HTML file we can access by JS. All the HTML elements are stored as object in JS and we
                     call that special object <b>document</b> and this document is available in window object. </li>
                 <li>The full HTML code is available in document object. We can run this code to see the full HTML code
@@ -49,7 +50,8 @@ window.console.log("hello");</code></pre></li>
                 <li>We can run this code to see the properties of document:
                     <pre class="code"><code>console.dir(window.document)</code></pre>
                 </li>
-                <li><b>Document is also an object in window object. It is a model or representation of HTML code. This is called DOM(Document Object Model).</b></li>
+                <li><b>Document is also an object in window object. It is a model or representation of HTML code. This
+                        is called DOM(Document Object Model).</b></li>
             </div>
 
             <div class="br container">
